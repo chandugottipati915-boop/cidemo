@@ -1,0 +1,12 @@
+{
+  "name": "ci-demo",
+  "version": "1.0.0",
+  "description": "A tiny project for learning CI/CD",
+  "main": "src/calculator.js",
+  "scripts": {
+    "build": "echo \"No build step needed for plain JS — this is a placeholder\" && exit 0",
+    "test": "node --test",
+    "lint": "echo \"No linter configured yet — placeholder\" && exit 0"
+  },
+  "license": "MIT"
+}
