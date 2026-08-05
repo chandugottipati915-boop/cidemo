@@ -16,3 +16,9 @@ function divide(a, b) {
 }
 
 module.exports = { add, subtract, divide };
+
+if (require.main === module) {
+  console.log('add(2, 3) =', add(2, 3));
+  console.log('subtract(9, 4) =', subtract(9, 4));
+  console.log('divide(10, 2) =', divide(10, 2));
+}
